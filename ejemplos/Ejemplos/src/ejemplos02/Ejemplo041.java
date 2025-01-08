@@ -10,7 +10,14 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
-
+    /*
+    En este codigo se declaran 3 arreglos, los 2 pirmeros tienen valores asignados
+    pero el tercero busca, usar los valores de los 2 arreglos anteriores usando
+    una operacion la cual esta hecha por un procedimiento llamado obtenerMutiplicacion
+    una vez hecho esto, se usa otro procedimiento para imprimir los 3 arreglos 
+    lo cual facilita ya que se puede reutilizar el codigo las veces que sea
+    esto se hace con el procedimiento llamado obtenerReporte.
+    */
     public static void main(String[] args) {
         // 
         
