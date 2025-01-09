@@ -15,14 +15,15 @@ public class Ejemplo09 {
         // 
         String mensajeSuma;
         String mensajeSumaDos;
-        String mensajeSumatres;
+        String mensajeSumaTres;
+        
         mensajeSuma = obtenerSuma(10, 9);
         mensajeSumaDos = obtenerSuma(10);
-        mensajeSumatres = obtenerSuma (9, 10, 20);
+        mensajeSumaTres = obtenerSuma (9, 10, 20);
         
         System.out.printf("%s\n", mensajeSuma);
         System.out.printf("%s\n", mensajeSumaDos);
-        System.out.printf("%s\n", mensajeSumatres);
+        System.out.printf("%s\n", mensajeSumaTres);
     }
         
     public static String obtenerSuma(int operandor1, int operandor2){
